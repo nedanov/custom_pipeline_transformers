@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
+from sklearn.base import TransformerMixin
 
 #object takes in a pandas dataframe or a numpy matrix and returns a numpy matrix
 class MultiColumnLabelEncoder(TransformerMixin):
